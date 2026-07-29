@@ -7,7 +7,7 @@ import threading
 app = Flask(__name__)
 
 ENGLISH_LOCALES = [
-    "en_BD",
+    "en_US",
 ]
 
 fakers = [Faker(locale) for locale in ENGLISH_LOCALES]
